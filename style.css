@@ -1,0 +1,50 @@
+
+body{
+    background: #206683;
+}
+.container{
+    position: relative;
+    margin: auto;
+    margin-top: 100px;
+    height: 30vw;
+    width: 30vw; 
+    background: url(blue-clock-no-hands-hi.png) no-repeat;
+    background-size: 100%;
+    border-radius: 50%;
+    box-shadow:  28px 28px 56px #0d2934,
+                 -28px -28px 56px #33a3d2;
+    
+
+}
+
+.hands{
+    position: absolute;
+    border-radius: 10px; 
+    transform-origin: bottom;
+}
+
+#hours{
+    width: 1.8%;
+    height: 25%;
+    top: 24%;
+    left: 50%;
+    background: black;
+    
+}
+
+#minutes{
+    width: 1.8%;
+    height: 29%;
+    top: 21%;
+    left: 51%;
+    background: whitesmoke;
+}
+
+#seconds{
+    width: 1%;
+    height: 32%;
+    top: 18%;
+    left: 50.3%;
+    background: #a74a4a;
+    
+}
